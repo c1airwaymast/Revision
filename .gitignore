@@ -1,0 +1,53 @@
+# 🔥 ULTIME MAILER - GitIgnore
+# Fichiers à ignorer pour le repo GitHub
+
+# Rust
+/target/
+Cargo.lock
+*.rs.bk
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+env/
+venv/
+.venv/
+
+# Logs
+*.log
+logs/
+data/logs/
+
+# Configuration sensible
+config_prod.yaml
+secrets.yaml
+*.key
+*.pem
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Données de test sensibles
+emails_prod.txt
+smtp_credentials.txt
+
+# Build artifacts
+dist/
+build/
+*.egg-info/
+
+# Backup files
+*.bak
+*.backup
+*.tmp
